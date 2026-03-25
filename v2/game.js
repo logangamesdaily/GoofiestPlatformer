@@ -4,7 +4,7 @@
 
 const API_ROOT = "https://gp.logangamesdaily.co.uk/api/v1";
 const ASSET_ROOT = "https://logangamesdaily.github.io/gp-assets";
-const SONG_ROOT = ""; // e.g. same origin: `${location.origin}/songs`
+const SONG_ROOT = "https://gp.logangamesdaily.co.uk/"; // e.g. same origin: `${location.origin}/songs`
 
 // Unity units → pixels
 const UNIT = 32;
