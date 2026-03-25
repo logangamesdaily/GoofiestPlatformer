@@ -3,7 +3,7 @@
 // =========================
 
 const API_ROOT = "https://gp.logangamesdaily.co.uk/api/v1";
-const ASSET_ROOT = "https://logangamesdaily.github.io/gp--assets";
+const ASSET_ROOT = "https://logangamesdaily.github.io/gp-assets";
 const SONG_ROOT = ""; // e.g. same origin: `${location.origin}/songs`
 
 // Unity units → pixels
@@ -120,17 +120,17 @@ function loadImage(name) {
 
 // Simple mapping; adjust to your actual asset filenames
 const ASSETS = {
-  player: loadImage("player"),
-  platform: loadImage("platform"),
-  spike: loadImage("spike"),
-  metalSpike: loadImage("metal_spike"),
-  gobble: loadImage("gobble"),
-  jumpOrb: loadImage("jump_orb"),
-  gravOrb: loadImage("grav_orb"),
-  jumpPad: loadImage("jump_pad"),
-  gravPad: loadImage("grav_pad"),
-  endGoal: loadImage("goal"),
-  bg: loadImage("bg"),
+  player: loadImage("Player"),
+  platform: loadImage("Floor"),
+  spike: loadImage("Spike"),
+  metalSpike: loadImage("MetalSpike"),
+  gobble: loadImage("Gobble"),
+  jumpOrb: loadImage("JumpOrb"),
+  gravOrb: loadImage("GravOrb"),
+  jumpPad: loadImage("JumpPad"),
+  gravPad: loadImage("GravPad"),
+  endGoal: loadImage("DeathParticle"),
+  bg: loadImage("BG"),
 };
 
 // =========================
