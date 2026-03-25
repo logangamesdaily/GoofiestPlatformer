@@ -28,10 +28,10 @@ class Game extends Phaser.Scene {
 
   preload() {
     this.load.image('bg', 'assets/bg.png');
-    this.load.image('tile', 'assets/tile.png');
-    this.load.image('player', 'assets/player.png');
-    this.load.image('enemy', 'assets/enemy.png');
-    this.load.image('checkpoint', 'assets/checkpoint.png');
+    this.load.image('tile', 'https://logangamesdaily.github.io/gp-assets/assets/Floor.png');
+    this.load.image('player', 'https://logangamesdaily.github.io/gp-assets/assets/Player.png');
+    this.load.image('enemy', 'https://logangamesdaily.github.io/gp-assets/assets/Gobble.png');
+    this.load.image('checkpoint', 'https://logangamesdaily.github.io/gp-assets/assets/DeathParticle.png');
 
     this.load.audio('jump', 'assets/jump.wav');
     this.load.audio('bonk', 'assets/bonk.wav');
